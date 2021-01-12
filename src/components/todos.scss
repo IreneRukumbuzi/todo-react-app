@@ -1,0 +1,32 @@
+.container{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo-list{
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.list-content{
+  font-size: large;
+}
+
+.list-item{
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.add-todo{
+  display: flex;
+  margin: 20px;
+}
+
+.invalid-feedback{
+  margin: 10px 0 10px 0;
+}
